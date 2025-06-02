@@ -23,7 +23,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme="dark"] {
+[data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -35,10 +35,9 @@
 }
 
 :root {
-  --docsite-book-font: "STIX Two Text", Georgia, Times, "Times New Roman", serif;
-  --docsite-ui-font: "Assistant", system-ui, Helvetica, sans-serif;
-  --docsite-code-font: "Azeret Mono", Consolas, SFMono-Regular, Menlo, Monaco,
-    monospace;
+  --docsite-book-font: 'STIX Two Text', Georgia, Times, 'Times New Roman', serif;
+  --docsite-ui-font: 'Assistant', system-ui, Helvetica, sans-serif;
+  --docsite-code-font: 'Azeret Mono', Consolas, SFMono-Regular, Menlo, Monaco, monospace;
 
   --ifm-font-family-base: var(--docsite-ui-font);
   --ifm-heading-font-family: var(--docsite-ui-font);
