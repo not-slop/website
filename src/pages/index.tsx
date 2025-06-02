@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 
-import styles from "./index.module.css";
+// import styles from "./index.module.css";
 
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
@@ -32,7 +32,9 @@ export default function Home(): ReactNode {
             marginBottom: "100px",
           }}
         >
-          An open label for handmade digital content
+          <div style={{ fontFamily: "var(--docsite-ui-font)" }}>
+            An open label for handmade digital content
+          </div>
         </div>
       </main>
     </Layout>
