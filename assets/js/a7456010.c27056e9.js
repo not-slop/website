@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknot_slop_website=self.webpackChunknot_slop_website||[]).push([[235],{8552:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
