@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'not-slop.org',
+  title: 'slop-free.org',
   tagline: 'An open label for handmade digital content',
   favicon: 'img/favicon.ico',
 
@@ -15,7 +15,7 @@ const config: Config = {
   //},
 
   // Set the production url of your site here
-  url: 'https://not-slop.org',
+  url: 'https://slop-free.org',
 
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
@@ -23,7 +23,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'not-slop', // Usually your GitHub org/user name.
+  organizationName: 'slop-free', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -47,7 +47,7 @@ const config: Config = {
           // sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/not-slop/website/blob/main/',
+          editUrl: 'https://github.com/slop-free/website/blob/main/',
 
           routeBasePath: '/'
         },
@@ -60,21 +60,21 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/not-slop-ograph.png',
+    image: 'img/slop-free-ograph.png',
     colorMode: {
       disableSwitch: true
     },
     navbar: {
-      title: 'not-slop.org',
+      title: 'slop-free.org',
       /*
       logo: {
         alt: "Not Slop logo",
-        src: "img/not-slop-logo.svg",
+        src: "img/slop-free-logo.svg",
       },
       */
       items: [
         {
-          href: 'https://github.com/not-slop/website',
+          href: 'https://github.com/slop-free/website',
           label: 'GitHub',
           position: 'right'
         }
@@ -89,15 +89,15 @@ const config: Config = {
           items: [
             {
               label: 'BlueSky',
-              href: 'https://bsky.app/profile/not-slop.org'
+              href: 'https://bsky.app/profile/slop-free.org'
             },
             {
               label: 'Mastodon',
-              href: 'https://fosstodon.org/@not_slop'
+              href: 'https://fosstodon.org/@slop_free'
             },
             {
               label: 'Twitter',
-              href: 'https://x.com/not_slop'
+              href: 'https://x.com/slop_free'
             }
           ]
         }
