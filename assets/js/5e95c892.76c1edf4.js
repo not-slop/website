@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknot_slop_website=self.webpackChunknot_slop_website||[]).push([[647],{9540:(e,s,r)=>{r.r(s),r.d(s,{default:()=>o});r(6672);var t=r(3526),n=r(5641),u=r(8910),a=r(3259),c=r(7726),l=r(3420);function o(e){return(0,l.jsx)(n.e3,{className:(0,t.A)(u.G.wrapper.docsPages),children:(0,l.jsx)(c.A,{children:(0,a.v)(e.route.routes)})})}}}]);
